@@ -65,3 +65,22 @@ RefactoringAction 1444829989611 Frame.java REMOVE getT FIELD
 RefactoringAction 1444829996623 Frame.java REMOVE Frame(int, int, int) METHOD
 EditAction 1444830024407 Frame.java 1463 9 18 0
 EditAction 1444830128102 BowlingGame.java 1688 7 18 0
+RefactoringAction 1444830139549 TestBowlingScoreCalculator.java RENAME test()=>void testBowlingGame() METHOD
+RefactoringAction 1444830144054 TestBowlingScoreCalculator.java RENAME testBowlingGame()=>void testBowlingGameaddFrame() METHOD
+RefactoringAction 1444830164061 TestBowlingScoreCalculator.java ADD void testBowlingGameaddFrame()/2 METHOD
+RefactoringAction 1444830164061 TestBowlingScoreCalculator.java ADD void testBowlingGameaddFrame()/3 METHOD
+RefactoringAction 1444830164062 TestBowlingScoreCalculator.java ADD void testBowlingGameaddFrame()/4 METHOD
+RefactoringAction 1444830164062 TestBowlingScoreCalculator.java ADD void testBowlingGameaddFrame()/5 METHOD
+RefactoringAction 1444830172569 TestBowlingScoreCalculator.java RENAME testBowlingGameaddFrame()/5=>void testBowlingGamesetBonus() METHOD
+RefactoringAction 1444830179576 TestBowlingScoreCalculator.java RENAME testBowlingGameaddFrame()/4=>void testBowlingGamescore() METHOD
+RefactoringAction 1444830188082 TestBowlingScoreCalculator.java RENAME testBowlingGameaddFrame()/3=>void testBowlingGameisNextFrameBonus() METHOD
+RefactoringAction 1444830198589 TestBowlingScoreCalculator.java RENAME testBowlingGameaddFrame()/2=>void testBowlingGamegetNextTwoThrows() METHOD
+RefactoringAction 1444830206108 TestBowlingScoreCalculator.java ADD void testBowlingGamegetNextTwoThrows()/2 METHOD
+RefactoringAction 1444830206108 TestBowlingScoreCalculator.java ADD void testBowlingGamegetNextTwoThrows()/3 METHOD
+RefactoringAction 1444830217619 TestBowlingScoreCalculator.java RENAME testBowlingGamegetNextTwoThrows()/3=>void testBowlingGamegetNextThrow() METHOD
+RefactoringAction 1444830228127 TestBowlingScoreCalculator.java REMOVE testBowlingGamegetNextTwoThrows()/2 METHOD
+RefactoringAction 1444830228127 TestBowlingScoreCalculator.java REMOVE testBowlingGamegetNextTwoThrows() METHOD
+RefactoringAction 1444830233137 TestBowlingScoreCalculator.java ADD void testBowlingGamegetNextTwoThrows() METHOD
+RefactoringAction 1444830233138 TestBowlingScoreCalculator.java ADD void testBowlingGamegetNextTwoThrows()/2 METHOD
+RefactoringAction 1444830235146 TestBowlingScoreCalculator.java REMOVE testBowlingGamegetNextTwoThrows()/2 METHOD
+EditAction 1444830243024 TestBowlingScoreCalculator.java 706 6 6 0
