@@ -16,18 +16,30 @@ public class BowlingGame {
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		Frame frame = new Frame(firstThrow,secondThrow);
-		
 		this.addFrame(frame);
 		
 	}
 	
 	public int score(){
-		//to be implemented
+		int score = 0;
+		
+		int len = frames.size();
+		for(int i =0 ; i<len;i++){
+			Frame frame = frames.get(i);
+			if(this.isNextFrameBonus(frame)){
+				
+			}else{
+				
+			}
+		}
 		return 0;
 	}
 	
-	public boolean isNextFrameBonus(){
-		
+	
+	public boolean isNextFrameBonus(Frame frame){
+		if(frame.isSpare()|| frame.isStrike()){
+			return true;
+		}
 		return false;
 	}
 }

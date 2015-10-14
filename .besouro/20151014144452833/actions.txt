@@ -19,3 +19,6 @@ RefactoringAction 1444826511276 Frame.java RENAME b=>int bonus FIELD
 EditAction 1444826645382 Frame.java 1239 6 12 0
 EditAction 1444827177239 Frame.java 1243 6 12 0
 EditAction 1444827178892 BowlingGame.java 626 5 5 0
+FileOpenedAction 1444827185197 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444827540903 BowlingGame.java RENAME isNextFrameBonus()=>boolean isNextFrameBonus(Frame) METHOD
+EditAction 1444827663079 BowlingGame.java 859 5 9 0
