@@ -64,3 +64,4 @@ RefactoringAction 1444829963596 Frame.java RENAME get=>int getT FIELD
 RefactoringAction 1444829989611 Frame.java REMOVE getT FIELD
 RefactoringAction 1444829996623 Frame.java REMOVE Frame(int, int, int) METHOD
 EditAction 1444830024407 Frame.java 1463 9 18 0
+EditAction 1444830128102 BowlingGame.java 1688 7 18 0
