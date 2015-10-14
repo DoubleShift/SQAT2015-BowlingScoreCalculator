@@ -1,16 +1,20 @@
 package org.unioulu.tol.sqat.bsc;
 
 public class Frame {
+	private int score;
 	private int bonus;
-	
+	private boolean lastFrame;
 	private int firstThrow;
 	private int secondThrow;
-	private int bonusThrow;
 
 	// secondThrow = -1 means firstThrow = 10
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		
+		this.score = 0;
+		this.bonus = 0;
+		this.lastFrame = false;
 
 	}
 	
@@ -18,17 +22,17 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		if(this.secondThrow == -1){
-			return this.firstThrow;
-		}else if(this.bonusThrow >=0 && this.bonusThrow <= 10){
-			return this.firstThrow + this.secondThrow + this.bonusThrow;
+		score = this.firstThrow + this.bonus;
+		
+		if(this.secondThrow >=0 && this.secondThrow <= 10){
+			score += this.secondThrow;
 		}
-		return this.firstThrow + this.secondThrow;
+		return score;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		if(this.firstThrow + this.secondThrow >= 10){
+		if(this.firstThrow!= 10 && this.firstThrow + this.secondThrow >= 10){
 			return true;
 		}
 		return false;
@@ -44,10 +48,11 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		if(this.bonusThrow <11){
-			return true;
-		}
-		return false;
+		return this.lastFrame;
+	}
+	
+	public void setLastFrame(){
+		this.lastFrame = true;
 	}
 
 	//bonus throws
@@ -55,4 +60,6 @@ public class Frame {
 		this.bonus = bonus;
 		return this.bonus;
 	}
+	
+
 }

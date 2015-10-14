@@ -24,3 +24,17 @@ RefactoringAction 1444827540903 BowlingGame.java RENAME isNextFrameBonus()=>bool
 EditAction 1444827663079 BowlingGame.java 859 5 9 0
 EditAction 1444827804093 Frame.java 1233 6 12 0
 EditAction 1444827816813 Frame.java 1214 6 12 0
+RefactoringAction 1444827877478 Frame.java RENAME bonus=>int score FIELD
+RefactoringAction 1444827929549 Frame.java ADD int bonus FIELD
+RefactoringAction 1444827970570 Frame.java REMOVE bonusThrow FIELD
+RefactoringAction 1444828196492 Frame.java ADD void bonus/2 FIELD
+RefactoringAction 1444828198001 Frame.java RENAME bonus/2=>void bonusThrow FIELD
+RefactoringAction 1444828199010 Frame.java RENAME bonusThrow=>void bonusThrow() METHOD
+RefactoringAction 1444828206527 Frame.java RENAME bonusThrow()=>void bonusThrow(int) METHOD
+RefactoringAction 1444828242078 Frame.java REMOVE bonusThrow(int) METHOD
+RefactoringAction 1444828383825 Frame.java ADD boolean setLa FIELD
+RefactoringAction 1444828386834 Frame.java RENAME setLa=>boolean setLastFrame() METHOD
+RefactoringAction 1444828407375 Frame.java ADD boolean last FIELD
+RefactoringAction 1444828408384 Frame.java RENAME last=>boolean lastF FIELD
+RefactoringAction 1444828411894 Frame.java RENAME lastF=>boolean lastFrame FIELD
+EditAction 1444828482008 Frame.java 1274 7 16 0
