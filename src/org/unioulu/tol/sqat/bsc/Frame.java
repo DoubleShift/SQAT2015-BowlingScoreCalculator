@@ -1,6 +1,8 @@
 package org.unioulu.tol.sqat.bsc;
 
 public class Frame {
+	private int bonus;
+	
 	private int firstThrow;
 	private int secondThrow;
 	private int bonusThrow;
@@ -49,6 +51,7 @@ public class Frame {
 	}
 
 	//bonus throws
+	//what's it?
 	public int bonus(int bonus){
 		this.bonusThrow = bonus;
 		return this.bonusThrow;
