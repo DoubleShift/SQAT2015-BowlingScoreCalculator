@@ -1,0 +1,16 @@
+FileOpenedAction 1444823093098 BowlingGame.java 584 5 2 0
+FileOpenedAction 1444823439310 Frame.java 794 6 7 0
+FileOpenedAction 1444824400996 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444824981084 Frame.java ADD int third FIELD
+RefactoringAction 1444824982099 Frame.java RENAME third=>int thirdTh FIELD
+RefactoringAction 1444824983609 Frame.java RENAME thirdTh=>int thirdThrow FIELD
+RefactoringAction 1444824990619 Frame.java ADD Frame(int, int)/2 METHOD
+RefactoringAction 1444825000161 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, int) METHOD
+RefactoringAction 1444825337796 Frame.java ADD Frame(int, int)/2 METHOD
+RefactoringAction 1444825342818 Frame.java RENAME Frame(int, int)/2=>Frame(int) METHOD
+RefactoringAction 1444826055880 Frame.java REMOVE Frame(int, int, int) METHOD
+RefactoringAction 1444826057890 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1444826057890 Frame.java REMOVE Frame(int) METHOD
+RefactoringAction 1444826301891 Frame.java ADD int bonusThrow FIELD
+RefactoringAction 1444826318435 Frame.java RENAME bonus()=>int bonus(int) METHOD
+EditAction 1444826418951 Frame.java 1200 6 12 0
