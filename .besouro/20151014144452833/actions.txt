@@ -44,3 +44,23 @@ RefactoringAction 1444829215100 Frame.java ADD int getFirstThrow() METHOD
 RefactoringAction 1444829221613 Frame.java RENAME getScore()=>int getFirstThrow()/2 METHOD
 RefactoringAction 1444829226633 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
 EditAction 1444829248709 Frame.java 1411 9 18 0
+RefactoringAction 1444829474429 BowlingGame.java ADD int get FIELD
+RefactoringAction 1444829476440 BowlingGame.java RENAME get=>int getNext FIELD
+RefactoringAction 1444829482451 BowlingGame.java RENAME getNext=>int getNextTwo FIELD
+RefactoringAction 1444829484969 BowlingGame.java RENAME getNextTwo=>int getNextTwoT FIELD
+RefactoringAction 1444829486481 BowlingGame.java RENAME getNextTwoT=>int getNextTwoTh FIELD
+RefactoringAction 1444829488491 BowlingGame.java RENAME getNextTwoTh=>int getNextTwoThrows FIELD
+RefactoringAction 1444829489508 BowlingGame.java RENAME getNextTwoThrows=>int getNextTwoThrows() METHOD
+RefactoringAction 1444829501536 BowlingGame.java RENAME getNextTwoThrows()=>int getNextTwoThrows(int) METHOD
+RefactoringAction 1444829720530 BowlingGame.java ADD int getNextTwoThrows(int)/2 METHOD
+RefactoringAction 1444829723544 BowlingGame.java RENAME getNextTwoThrows(int)/2=>int getNextThrows(int) METHOD
+RefactoringAction 1444829724556 BowlingGame.java RENAME getNextThrows(int)=>int getNextThrow(int) METHOD
+RefactoringAction 1444829902442 Frame.java ADD int secondThrow/2 FIELD
+RefactoringAction 1444829906951 Frame.java RENAME secondThrow/2=>int thirdThrow FIELD
+RefactoringAction 1444829914460 Frame.java ADD Frame(int, int)/2 METHOD
+RefactoringAction 1444829920974 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, int) METHOD
+RefactoringAction 1444829960587 Frame.java ADD int get FIELD
+RefactoringAction 1444829963596 Frame.java RENAME get=>int getT FIELD
+RefactoringAction 1444829989611 Frame.java REMOVE getT FIELD
+RefactoringAction 1444829996623 Frame.java REMOVE Frame(int, int, int) METHOD
+EditAction 1444830024407 Frame.java 1463 9 18 0

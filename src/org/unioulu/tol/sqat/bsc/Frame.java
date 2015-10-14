@@ -6,6 +6,9 @@ public class Frame {
 	private boolean lastFrame;
 	private int firstThrow;
 	private int secondThrow;
+	
+	//only for theth throw
+	private int thirdThrow;
 
 	// secondThrow = -1 means firstThrow = 10
 	public Frame(int firstThrow, int secondThrow){
@@ -18,7 +21,6 @@ public class Frame {
 
 	}
 	
-
 
 	public int getSecondThrow() {
 		return this.secondThrow;
