@@ -38,3 +38,9 @@ RefactoringAction 1444828407375 Frame.java ADD boolean last FIELD
 RefactoringAction 1444828408384 Frame.java RENAME last=>boolean lastF FIELD
 RefactoringAction 1444828411894 Frame.java RENAME lastF=>boolean lastFrame FIELD
 EditAction 1444828482008 Frame.java 1274 7 16 0
+RefactoringAction 1444828807408 BowlingGame.java ADD int score FIELD
+RefactoringAction 1444829215100 Frame.java ADD int getScore() METHOD
+RefactoringAction 1444829215100 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444829221613 Frame.java RENAME getScore()=>int getFirstThrow()/2 METHOD
+RefactoringAction 1444829226633 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
+EditAction 1444829248709 Frame.java 1411 9 18 0

@@ -19,7 +19,19 @@ public class Frame {
 	}
 	
 
-	
+
+	public int getSecondThrow() {
+		return this.secondThrow;
+	}
+
+
+
+	public int getFirstThrow() {
+		return this.firstThrow;
+	}
+
+
+
 	//the score of a single frame
 	public int score(){
 		score = this.firstThrow + this.bonus;
