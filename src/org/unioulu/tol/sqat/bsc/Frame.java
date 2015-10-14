@@ -51,7 +51,6 @@ public class Frame {
 	}
 
 	//bonus throws
-	//what's it for?
 	public int bonus(int bonus){
 		this.bonus = bonus;
 		return this.bonus;
